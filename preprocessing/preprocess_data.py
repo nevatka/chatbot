@@ -118,16 +118,3 @@ def sort_by_occurence():
                 sorted_questions.append(conv_questions_int[i[0]])
                 sorted_answers.append(conv_answers_int[i[0]])
     return {"sorted_questions": sorted_questions, "sorted_answers": sorted_answers}
-
-
-
-
-
-
-
-
-# map_conversations()
-# mappp = map_conversations().get("questions")
-#
-# for i in mappp:
-#     preprocess(i)
